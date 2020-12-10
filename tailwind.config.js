@@ -9,6 +9,16 @@ module.exports = {
         fontFamily: {
             sans: ['Inter', ...defaultTheme.fontFamily.sans],
         },
+        colors: {
+            primary: '#023e8a',
+            secondary: '#ffc2cc',
+            white: '#fff',
+            black: '000',
+            green: '#10B981',
+        },
+        fill: theme => ({
+            white: theme('colors.white'),
+        }),
     },
     variants: {},
     plugins: [],
