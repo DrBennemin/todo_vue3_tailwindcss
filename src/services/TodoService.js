@@ -14,6 +14,7 @@ export default {
         return apiClient.get('/todos')
     },
     postTodo(todo) {
+        console.log(todo)
         return apiClient.post('/todos', todo)
     },
 }
