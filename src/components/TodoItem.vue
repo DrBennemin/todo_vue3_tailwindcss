@@ -1,6 +1,6 @@
 <template>
     <div class="flex">
-        <div class="px-4 py-2 bg-white text-primary text-lg flex-grow rounded-l-lg">
+        <div class="px-4 py-2 bg-white text-primary text-lg text-left flex-grow flex-wrap rounded-l-lg">
             {{ todo.todo_text }}
         </div>
         <button class="bg-green w-12 h-12 flex justify-center">
